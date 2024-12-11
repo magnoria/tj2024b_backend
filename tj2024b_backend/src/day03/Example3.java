@@ -1,5 +1,8 @@
 package day03;
 
+
+
+
 public class Example3 {
 
 	public static void main(String[] args) {
@@ -86,6 +89,27 @@ public class Example3 {
 		// 변수를 만들시 어차피 여러가지 점수를 넣고 변환을 할 수 있으므로 미리 정의할 필요가 없다.
 		//어제 질문받았던것 처럼 똑같이 했다
 		
+		//A 100~ 90점 B89 ~ 80  C 79~70  D 69~60  나머지는 F
+		
+		int score = 75;
+		char grade;
+		
+		if (score >= 90) {// if s
+			grade = 'A';
+			
+		} else if (score >= 80) {
+			grade = 'B';
+			
+		}else if (score >= 70) {
+			grade = 'C';
+			
+		}else if (score >= 60) {
+			grade = 'D';
+			
+		}else {
+			grade = 'F';
+		} //if e
+		System.out.println(grade);
 		
 	
 		
