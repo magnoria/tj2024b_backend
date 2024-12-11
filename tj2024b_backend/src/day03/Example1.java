@@ -43,7 +43,8 @@ public class Example1 { //클래스 -> 자바는 번역(컴파일)단위를 클�
 		int mathScore2 = 90;
 		int engScore2 = 80;
 		int totalScore2 = korScore2+mathScore2+engScore2;
-		double avgScore2 = totalScore2/3.0; //-> 이게 중요
+		double avgScore2 = totalScore2/3.0; //-> 이게 중요 3.0을 쓴 이유는 소수점까지 표현하기 위해서 3을 쓰면 int로만 되기에 소수점이 없어진다
+		//그래서 double로 받음
 		
 		System.out.println(totalScore2);
 		System.out.println(avgScore2);
