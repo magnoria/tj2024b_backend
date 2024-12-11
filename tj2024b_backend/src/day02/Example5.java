@@ -1,6 +1,6 @@
 package day02;
 
-import java.lang.classfile.attribute.LocalVariableTableAttribute;
+
 import java.util.Scanner;
 import java.util.concurrent.CancellationException;
 
@@ -82,7 +82,7 @@ public class Example5 {
 		*/
 		//[7]십만원 단위의 금액을 입력받아 입력받은 금액의 지폐수를 
 		
-		/*System.out.print("십만원단위금액입력:");
+		System.out.print("십만원단위금액입력:");
 		
 		int mony =scan.nextInt();
 		
@@ -97,7 +97,7 @@ public class Example5 {
 		System.out.print("만원"+""+t2+""+"장");
 		System.out.println("천원"+t3+"장");
 		
-		*/
+		
 		
 		//[8] 1차점수와 2차점수 각각입력받아서
 		 //-> 총점이 150점이상이면 '합격' 아니면 '불합격' 으로 출력
