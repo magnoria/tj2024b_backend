@@ -1,6 +1,6 @@
 package day01;
 
-public class Example2 {
+public class Example2_자바타입설명 {
 
 	public static void main(String[] args) {
 		

@@ -1,6 +1,6 @@
 package day02; //폴더명 패키지명
 
-public class Example2 { // 클래스 시작
+public class Example2_타입설명 { // 클래스 시작
 
 	public static void main(String[] args) {
 				

@@ -1,6 +1,6 @@
 package day02; //폴더명
 
-public class Example3 { // class start
+public class Example3_형식문자 { // class start
 
 	public static void main(String[] args) { //main start
 		
