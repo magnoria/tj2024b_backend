@@ -145,6 +145,13 @@ public class Example4 {
 	
 	//[6] 윤년/ 평년 판단하기
 	
+	
+	
+	
+	//[7] 주차요금 계산하기
+		int 시 = 9;
+		int 분 = 30;
+	
 			
 
 	}//main e
