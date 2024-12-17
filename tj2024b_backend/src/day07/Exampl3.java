@@ -41,13 +41,13 @@ public class Exampl3 {
 				System.out.println("> 비밀번호:"); int logSic = scan.nextInt();
 				
 				
-				if (login1.id == loid || login1.sicrit == logSic) {
+				if (login1.id.equals(loid) && login1.sicrit == logSic) {
 					System.out.println("로그인 성공하셨습니다.");
 					
-				}else if (login2.id == loid || login2.sicrit == logSic) {
+				}else if (login2.id.equals(loid) && login2.sicrit == logSic) {
 					System.out.println("로그인 성공하셨습니다");
 					
-				}else if (login3.id == loid || login3.sicrit == logSic) {
+				}else if (login3.id.equals(loid) && login3.sicrit == logSic) {
 					System.out.println("로그인 성공하셨습니다");
 				}else {
 					System.out.println("로그인 실패하셨습니다.");
