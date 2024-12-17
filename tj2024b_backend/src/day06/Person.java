@@ -8,10 +8,10 @@ public class Person {
 }
 
 public class Computer{
-	String memory
-	String grapic card
-	String hard disk
-	String cpu
+	String memory;
+	String grapiccard;
+	String harddisk;
+	String cpu;
 
 }
 
