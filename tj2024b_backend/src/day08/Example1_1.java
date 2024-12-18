@@ -30,7 +30,7 @@ public class Example1_1 {
 				
 				
 				Waiting waiting = new Waiting();
-				Waiting.phone = phone; Waiting.count = count;
+				waiting.phone = phone; waiting.count = count;
 				
 				//
 				//if (list1 == null) {
