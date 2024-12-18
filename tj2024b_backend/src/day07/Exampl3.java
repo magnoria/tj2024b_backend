@@ -30,6 +30,8 @@ public class Exampl3 {
 				}else if (login3.id == null) {
 					login3.id = loid; login3.sicrit = logSic; login3.nic = logNic;
 					
+				}else {
+					System.out.println("더이상 가입할수 없습니다.");
 				}
 				
 				
@@ -38,16 +40,16 @@ public class Exampl3 {
 				
 			}else if (choose == 2) {
 				System.out.println("> 아이디:"); String loid = scan.next();
-				System.out.println("> 비밀번호:"); int logSic = scan.nextInt();
+				System.out.println("> 비밀번호:"); int logNic = scan.nextInt();
 				
 				
-				if (login1.id != null && login1.id.equals(loid) && login1.sicrit == logSic) {
+				if (login1.id != null && login1.id.equals(loid) && login1.sicrit == logNic) {
 					System.out.println("로그인 성공하셨습니다.");
 					
-				}else if (login2.id.equals(loid) && login2.sicrit == logSic) {
+				}else if (login2.id.equals(loid) && login2.sicrit == logNic) {
 					System.out.println("로그인 성공하셨습니다");
 					
-				}else if (login3.id.equals(loid) && login3.sicrit == logSic) {
+				}else if (login3.id.equals(loid) && login3.sicrit == logNic) {
 					System.out.println("로그인 성공하셨습니다");
 				}else {
 					System.out.println("로그인 실패하셨습니다.");
