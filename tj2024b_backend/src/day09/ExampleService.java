@@ -9,7 +9,7 @@ public class ExampleService {
 		System.out.println(">번호를입력하세요 :"); int num = scan.nextInt();
 		System.out.println("인원수명 :"); int peple = scan.nextInt();
 		
-		Examlist list = new Examlist();
+		Examlist list = new Examlist();// 여기서 한번더 만드는 이유
 		list.number = num;
 		list.peple = peple;
 		
@@ -17,7 +17,7 @@ public class ExampleService {
 		for ( int index = 0; index <lists.length-1; index++) {
 			if (lists[index] == null) {
 				lists[index] = list;
-				saveState = true;
+				saveState = true;// 이해가 안감 왜 true false 를 넣지 ?
 				break;
 			}
 			
