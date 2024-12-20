@@ -3,7 +3,7 @@ package day09;
 import java.util.Iterator;
 import java.util.Scanner;
 
-public class LoginService {
+public class LoginService_수정필요 {
 	
 	void Loginadd(Scanner scan, LoginList[] lists) {
 		System.out.println(">아이디를 입력하세요 :"); String id = scan.next();
