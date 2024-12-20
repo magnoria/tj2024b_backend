@@ -23,14 +23,14 @@ public class Example4 {
 		
 		PropilService Ps = new PropilService();
 		PropiLists[] lists = new PropiLists[100];
-		
+		System.out.println(lists);
 		while (true) {
 			System.out.println("1.회원가입 2.로그인 :");
 			Scanner scan = new Scanner(System.in);
 			int choose = scan.nextInt();
 			
 			if (choose == 1) {
-				Ps.login(scan , PropiLists);
+				Ps.login(scan , lists);
 				
 			}
 			else if (choose == 2) {
