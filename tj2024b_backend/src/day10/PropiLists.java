@@ -23,7 +23,7 @@ public class PropiLists {
 	public void setId(String Id) {this.Id = Id;}
 	
 	public int getNumber() {return Number;}
-	public void setId(int Number) {this.Number = Number;}
+	public void setNumber(int Number) {this.Number = Number;}// set id 두번넣고 있었음
 	
 	public String getNic() {return Nic;}
 	public void setNic(String Nic) {this.Nic = Nic;}

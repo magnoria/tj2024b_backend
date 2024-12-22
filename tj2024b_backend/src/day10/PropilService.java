@@ -14,7 +14,7 @@ public class PropilService {
 		
 		PropiLists list = new PropiLists();// 생성자
 	    list.setId(neWid);
-	    list.setId(neWnumBer);
+	    list.setNumber(neWnumBer); // 이거 아이디 두번넣고 있었음
 	    list.setNic(neWnic);
 	    
 	    boolean save = false;
