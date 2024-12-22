@@ -18,7 +18,7 @@ public class Example2 {
 	
 	public static void main(String[] args) {
 		
-		LoginService_수정필요 Ls = new LoginService_수정필요();
+		LoginService_틀린거찾음 Ls = new LoginService_틀린거찾음();
 		
 		LoginList[] lists = new LoginList[100];
 		

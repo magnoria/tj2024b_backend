@@ -39,10 +39,10 @@ public class Exampl4 {
 		
 		data[0] = 10.0; //첫번째 인덱스의 10.0 대입
 		data[1] = 20.0; //두번째 인덱스의 20.0 대입
-		data[3] = 30.0; //세번째 인덱스이 30.0 대입
+		data[2] = 30.0; //세번째 인덱스이 30.0 대입
 		//네번째 인덱스 , 다섯번째 인덱스는 대입하지 않았다. [3] 와 [5]는 기본값인 0.0 이 들어있다.(기본값)
-		for ( int i = 0; i) {
-			type type = (type) .next();
+		for ( int i = 0; i< data.length-1; i++) {
+				System.out.println(data[i]); //수업을 듣다가 다못적었나봄
 			
 		}
 		

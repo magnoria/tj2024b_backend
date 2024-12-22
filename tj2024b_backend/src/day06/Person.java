@@ -7,11 +7,11 @@ public class Person {
 
 }
 
-public class Computer{
+/*public class {
 	String memory;
 	String grapiccard;
 	String harddisk;
 	String cpu;
 
-}
+}*/
 

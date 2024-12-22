@@ -1,6 +1,6 @@
 package day08;
 
-import java.lang.classfile.attribute.NestHostAttribute;
+
 import java.util.Iterator;
 import java.util.Scanner;
 
@@ -15,7 +15,7 @@ import java.util.Scanner;
   
  * */
 
-public class Example1 {
+public class Example1_시간안에못품 {
 	public static void main(String[] args) {
 		
 		PerList[] boardArrayLists = new PerList[100];
@@ -35,9 +35,7 @@ public class Example1 {
 			
 			boolean saveState = false;
 			for (int index = 0; index <= boardArrayLists.length-1; index++) {
-				if (boardArrayLists[index] = null) {
-					
-				}
+			
 				
 			}
 				

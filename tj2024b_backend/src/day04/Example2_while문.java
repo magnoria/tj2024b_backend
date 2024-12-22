@@ -3,7 +3,7 @@ package day04;
 
 import java.util.Iterator;
 
-public class Example2 {
+public class Example2_while문 {
 
 	public static void main(String[] args) {
 		

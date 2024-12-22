@@ -2,7 +2,7 @@ package day04;
 
 import java.io.StreamCorruptedException;
 
-public class Example1 {
+public class Example1_switch {
 
 	public static void main(String[] args) {
 			

@@ -1,10 +1,7 @@
 package day04;
 
-import java.awt.peer.SystemTrayPeer;
 
-import javax.annotation.processing.SupportedAnnotationTypes;
-
-public class Example3 {
+public class Example3_문제못풀었음정리하기 {
 
 	public static void main(String[] args) {
 		
@@ -63,7 +60,7 @@ public class Example3 {
 		//1~100까지의 홀수값들의 누적합계
 		int total = 0;
 		for(int num = 1; num<= 100; num++) {
-			if(num)
+			
 			
 		}
 		

@@ -1,10 +1,10 @@
 package day03;
 
 
-import java.awt.peer.SystemTrayPeer;
+
 import java.util.Scanner; //이게 Scanner scan 입력시 만들어짐 
 
-public class Example4 {
+public class Example4_문제풀이 {
 
 	public static void main(String[] args) {
 		

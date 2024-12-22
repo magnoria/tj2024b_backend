@@ -1,6 +1,6 @@
 package day09;
 
-import day06.person;
+
 
 public class Example3 {
 public static void main(String[] args) {

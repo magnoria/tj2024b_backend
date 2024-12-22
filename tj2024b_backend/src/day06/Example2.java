@@ -1,6 +1,6 @@
 package day06;
 
-import java.lang.classfile.instruction.TableSwitchInstruction;
+
 import java.util.Scanner;
 
 /*
@@ -42,7 +42,7 @@ public class Example2 {
 			
 			if (menu == 1) {System.out.print("콜라수량입력");
 				coca = scan.nextInt();
-					sum
+					
 				
 			}else if (menu==2) {System.out.print("사이다수량입력");
 				syda = scan.nextInt();
@@ -57,17 +57,19 @@ public class Example2 {
 				System.out.println("개수가 안됩니다.");
 			}
 		
+	
 			
 			
 			
+	
 			
-			
-			
+	
 			
 		}//while end
+
+
 		
 		
-		*/
 		
 		
 		
