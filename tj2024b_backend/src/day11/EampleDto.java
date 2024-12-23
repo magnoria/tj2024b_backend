@@ -9,6 +9,7 @@ public class EampleDto {
 	private String id;
 	private int num;
 	private String nic;
+	//private String board;   아무리 생각해도 board를 저장할 이유가 없음
 	
 	//2. 생성자 , 객체 생성시 초기화 담당, new 생성자()
 		// + 디폴트 생성자 규칙
@@ -34,7 +35,9 @@ public class EampleDto {
 		
 		public String getNic() {return this.nic;}
 		public void setNic(String nic) {this.nic = nic;}
-	
+		
+	//	public String getboard() {return this.board;}
+	//	public void setboard(String board) {this.board = board;}
 	
 	
 }//class end

@@ -28,6 +28,10 @@ public class Example1 {
 			// 지역변수에 만들고도 오류가 안뜨는 이유는 while문이 돌아갈시
 			// Scanner scan = new도 사라지기 때문
 			// 지속적으로 사용해야한다면 밖에 두어도 된다.
+		
+		
+		
+		
 		while (true) {
 			System.out.println("1.회원가입 2.로그인 :");
 			Scanner scan = new Scanner(System.in);
@@ -40,19 +44,20 @@ public class Example1 {
 				
 				
 			}if (choose == 2) { 
+				es.LoginSucces(scan, logins);
 				
-			es.LoginSucces(scan, logins);
+			//EampleDto successuserDto = es.LoginSucces(scan, logins);   [!] void 메소드라 반환값이 없어서 저장 불가
 				
-				break;
+				break;// 흐름을 몰랐음, Sevice 메소드에서 변화를 할려고 했음, break를 걸고 나와서 그냥 선택지를 고르면 됨
 			}// if end
 				
 			
-			System.out.println(" 게시물 등록");
-		
-				
-		
+		//System.out.println(es.LoginSucces(scan, logins)); 값 불
 			
 		}//while end
+		
+		
+		
 	
 	
 
