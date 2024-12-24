@@ -1,5 +1,7 @@
 package day01;
 
+import day10.Student2;
+
 public class Example1 {
 
 	public static void main(String[] args) {
@@ -44,7 +46,7 @@ public class Example1 {
 		System.out.println(level2);
 		
 		
-		
+		Example1 exam = new Example1();
 
 	}
 
