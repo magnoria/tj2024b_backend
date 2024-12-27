@@ -84,3 +84,11 @@
 				-controller 패키지*
 					-BoardController 클래스    * 싱글톤 o, 입력받은 게시물 정보를 받아  dao에게 전달 담당하는 클래스
 				
+				
+				
+[실습 예 2]
+
+
+		view				
+				
+				
