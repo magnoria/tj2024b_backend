@@ -3,7 +3,7 @@ package day14.Example2.model.dto;
 public class MemberDto {
 	//싱글톤
 	//멤버변수 만들기
-	//private String id;				//사원번호
+	//private String id;				//사원번호 자동 배열 순서로 변경
 	private String position;		//직위
 	private String name;			//이름
 

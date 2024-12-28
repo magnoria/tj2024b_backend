@@ -26,6 +26,15 @@ public class MemberController {
 		return result;
 	}
 	
+	//2-1. 로그인 제어
+	public ArrayList<MemberDto> login(){
+		ArrayList<MemberDto> result = MemberDao.getInstance().login();//모든게시물을 보냄
+		return result;
+	}
+	
+	
+	
+	
 	//3. 수정함수
 	public boolean correction(int cindex, MemberDto memberDto) {
 		boolean result = MemberDao.getInstance().correction(cindex, memberDto);
@@ -39,6 +48,9 @@ public class MemberController {
 		return result;
 		
 		}
+	
+	
+	
 	
 	
 	

@@ -23,14 +23,14 @@ public class MemberView {
 	
 	
 	//메인 표현
-	public void index() { // index 헷갈려서 main 으로 변경
+	public void index() {
 		
 		while (true) {
-			System.out.print(" 1. 사원등록 2. 로그인 3. 사원수정 4. 사원삭제");
+			System.out.println(" 1. 사원등록 2. 로그인 3. 사원수정 4. 사원삭제");
 			int choose = scan.nextInt();
 			if (choose == 1) {regist();
 				
-			}else if (choose == 2) {output();
+			}else if (choose == 2) {login();
 				
 			}else if (choose == 3) {correction();
 				
@@ -45,8 +45,8 @@ public class MemberView {
 	//2. 사원등록 함수
 	public void regist() {
 		//System.out.println("사원번호:"); String id = scan.next();
-		System.out.println("직위:"); String postion = scan.next();
-		System.out.println("이름:"); String name = scan.next();
+		System.out.print("직위:"); String postion = scan.next();
+		System.out.print("이름:"); String name = scan.next();
 		
 		MemberDto memberDto = new MemberDto(postion, name);
 		
@@ -66,7 +66,7 @@ public class MemberView {
 			
 			
 			System.out.printf("사원번호:%d\n 사원직위:%s\n 사원이름:%s\n",
-					check.size(), newMember.getPosotion(), newMember.getName());
+					check.size()-1, newMember.getPosotion(), newMember.getName());
 			//리스트에 영향을 안끼치고 저장된것만 보여주기
 			
 			
@@ -133,7 +133,7 @@ public class MemberView {
 	}
 	
 	//전체출력 리스트확인용
-	public void output() {
+/*	public void output() {
 		ArrayList<MemberDto> result = MemberController.getInstance().output();
 		
 		for ( int i=0; i <= result.size()-1; i++) {
@@ -143,7 +143,56 @@ public class MemberView {
 			
 		}
 		
-	}
+	}// f end */
+	
+	/*public void login() {
+		System.out.print("사원번호:"); int index = scan.nextInt();
+		System.out.println("이름:"); String name = scan.next();
+		
+		ArrayList<MemberDto> result = MemberController.getInstance().login();
+		 
+		//로그인 성공여부
+		
+		
+		
+		for ( int i=0; i <= result.size()-1; i++) {
+			MemberDto members = result.get(i);
+			if ( i == index && members.getName() == name ) {
+				System.out.println("로그인성공");
+			}else if (i != index && members.getName() != name) {
+				System.out.println("로그인 실패");
+			}
+				
+			}//for end
+			
+		}// f end 처음 만들었던 로그인 */
+	
+	public void login() {
+		System.out.print("사원번호:"); int index = scan.nextInt();
+		System.out.print("이름:"); String name = scan.next();
+		
+		ArrayList<MemberDto> result = MemberController.getInstance().login();
+		//로그인 성공여부
+		boolean logins = false;
+		
+		for (int i = 0; i<= result.size()-1; i++) {
+			MemberDto members = result.get(i);
+			if ( i == index && members.getName().equals(name)) {//문자비교 자꾸 헷갈림
+				System.out.println("로그인성공");
+				logins = true;
+				break;
+			}
+			
+		}// for end
+		if (!logins) {
+			System.out.println("로그인실패");
+		}
+	}//f end
+		
+		
+			
+		
+	
 	
 	
 	

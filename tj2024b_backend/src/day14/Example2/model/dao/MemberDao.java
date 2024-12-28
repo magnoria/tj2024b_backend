@@ -35,6 +35,13 @@ public class MemberDao {
 		return members;
 	}
 	
+	//2-1. 로그인 함수
+	public ArrayList<MemberDto> login(){
+		return members;
+	}
+	
+	
+	
 	//3. 게시물 수정 함수
 	public boolean correction(int cindex, MemberDto memberDto) {
 		if (cindex > members.size()-1 || cindex < 0) { // members 요소(배열을)꺼내온다
@@ -56,6 +63,8 @@ public class MemberDao {
 		return true;
 	}
 	
+	
+
 
 	
 	
