@@ -24,12 +24,12 @@ create table testtable2(필드명1 int, 필드명2 double);
 drop table testtable1;
 drop table if exists testtable2;
 #[5] 데이터 타입
-/* MYSQL 데이터 타입
+MYSQL 데이터 타입
 	[정수]
 		tinyint     1바이트       -128~ +127		=byte
         Samllint    2바이트  		+-3만정도			= short
         mediumint	3바이트		+-800만정도
-        int			4바이트		+21억이상	
+        int			4바이트		+21억이상			, int unsigned
         bingint		8바이트		+-21억이상		=long
 	[실수]
 		float 		4바이트		부동소수점(표현 범위 이상일경우 오차 발생)
@@ -43,11 +43,11 @@ drop table if exists testtable2;
 		char(문자길이)		문자열표현, 고정길이, 최대255글자 ,char(5) 		--> "유재석" --> [유][재][석][][] 2칸이 남는다.
         varchar(문자길이)	문자열표현, 가변길이, 최대255글자 ,varchar(5)	--> "유재석" --> [유][재][석] 남은 길이는 제거
         text			문자열표현, 최대 6만 글자
-        longtext 		무자열표현, 최대 42억개 글자, 4GB, 대용량
+        longtext 		문자열표현, 최대 42억개 글자, 4GB, 대용량
 	[논리]
 		bool			true or false 표현, tintyint와 같다.
 	
-*/
+	
 
 # 다양한 데이터 타입 이용한 테이블 생성 실습
 create table testtable3(#테이블 생성 시작

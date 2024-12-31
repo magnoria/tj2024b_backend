@@ -1,7 +1,6 @@
 package day01;
 
 
-
 public class HellowJava {
 
 	public static void main(String[] args) {
@@ -21,6 +20,17 @@ public class HellowJava {
 		//6. System.out.rpintln("실행시키고 싶은것");
 		// *JDK 안에 JVM(자바가상머신), 컴파일러(번역기), JRE(자바실행환경) 포함
 
+		
+	car myCar = new car();
+	myCar.run();
+		
+		
+		
 	}
+	
+	
+	
+	
+	
 
 }
