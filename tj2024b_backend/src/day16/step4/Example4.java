@@ -1,7 +1,7 @@
 package day16.step4;
 
 class Car {
-    Tire tire;
+    Tire tire ;
     public void run(){  this.tire.roll();    }
 }
 class Tire {
