@@ -3,9 +3,6 @@ package baordservice10.model.dto;
 
 
 
-
-
-
 public class MemberDto { //DTO : 서로 다른 레이어(MVC패턴)들 간의 데이터를 이동하는 객체
 	// * 주로 데이터베이스 테이블의 속성과 동일하다. + 커스텀 가능
 	// *주로 DTO는 멤버변수 private 접근제한자 사용한다. 다른 클래스에서 접근 불가능
