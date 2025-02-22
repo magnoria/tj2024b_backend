@@ -29,7 +29,7 @@ public class Example1_1코드확인 {
 				System.out.println("> 인원수 :"); int count = scan.nextInt();
 				
 				Waiting waiting = new Waiting();  
-				waiting.phone = phone; waiting.count = count; 
+				//waiting.phone = phone; waiting.count = count; 
 				 
 				
 				//
@@ -57,8 +57,8 @@ public class Example1_1코드확인 {
 			//	}
 				for(int index = 0; index <= waitingArray.length-1;index++) {
 					if (waitingArray[index] !=null) {
-						System.out.printf("인원수 %d명 , 연락처 : %s \n",
-								waitingArray[index].count , waitingArray[index].phone);
+						//System.out.printf("인원수 %d명 , 연락처 : %s \n",
+								//waitingArray[index].count , waitingArray[index].phone);
 						
 					}
 				}

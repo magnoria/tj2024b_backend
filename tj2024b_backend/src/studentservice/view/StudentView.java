@@ -61,12 +61,12 @@ public class StudentView {
 		
 		//2.
 		
-		public String choice() {
+		//public String choice() {
 			//1. 입력
-		System.out.println("이름:"); String name = scan.next();
+		//System.out.println("이름:"); String name = scan.next();
 			
-		StudentDto studentDto = new StudentDto(name);
-		S
+		//StudentDto studentDto = new StudentDto(name);
+		
 			
 			
 			

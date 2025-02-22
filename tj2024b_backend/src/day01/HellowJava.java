@@ -21,10 +21,7 @@ public class HellowJava {
 		// *JDK 안에 JVM(자바가상머신), 컴파일러(번역기), JRE(자바실행환경) 포함
 
 		
-	car myCar = new car();
-	myCar.run();
-		
-		
+	
 		
 	}
 	
